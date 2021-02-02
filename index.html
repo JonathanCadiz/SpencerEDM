@@ -55,8 +55,37 @@
                         <li>And More!</li>
                     </ul>
                 </div>
-                <div id="picture-carousel">
-                    
+                <div class="slideshow">
+                    <div class="slides fade">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="images/img1.jpg">
+                    </div>
+                    <div class="slides fade">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="images/img2.jpg">
+                    </div>
+                    <div class="slides fade">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="images/img3.jpg">
+                    </div>
+                    <div class="slides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="images/img4.jpg">
+                    </div>
+                    <div class="slides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="images/img5.jpg">
+                    </div>
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
                 </div>
             </div>
         </section>
@@ -64,6 +93,6 @@
         <footer>
             <p>Copyright &copy; Spencer Corporation, All rights reserved</p>
         </footer>
-        
+        <script src="scripts/slideshow.js"></script>
     </body>
 </html>

@@ -84,3 +84,12 @@ header a:hover{
     font-size: 22px;
 
 }
+
+/* Services */
+#services{
+    text-align: center;
+}
+
+#services h1{
+    color: #4F4F4F;
+}

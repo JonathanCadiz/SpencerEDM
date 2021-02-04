@@ -69,7 +69,7 @@ header a:hover{
 
 /* Title Showcase */
 #title-showcase {
-    min-height: 400px;
+    min-height: 600px;
     background: url('../images/title-back.png') no-repeat;
     background-size: cover;
     background-position: center center;
@@ -78,9 +78,9 @@ header a:hover{
 }
 
 #title-showcase h1 {
-    margin-top: 100px;
+    margin-top: 200px;
     font-size: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 #title-showcase p {
@@ -97,13 +97,18 @@ header a:hover{
     color: #4F4F4F;
 }
 
+#services hr {
+    border: 2px solid #FF6939;
+}
+
 #services ul {
     float: left;
     width: 30%;
 }
 
 #services .offerings {
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -115,6 +120,7 @@ header a:hover{
 
 #services .pictures {
     margin-top: 20px;
+    margin-bottom: 30px;
     text-align: center;
     text-align: center;
 }
@@ -124,6 +130,29 @@ header a:hover{
     display: inline-block;
 }
 
+/* Service Showcase */
+#service-showcase {
+    min-height: 580px;
+    background: url('../images/service-back.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: white;
+}
+
+#service-showcase .column {
+    width: 50%;
+    float: left;
+    margin-top: 15px;
+}
+
+#service-showcase .container {
+    text-align: left;
+    line-height: 15px;
+    width: 90%;
+}
+
+/* Responsiveness */
 @media (max-width: 768px) {
 
     header {
@@ -187,5 +216,17 @@ header a:hover{
         width: 65%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    #service-showcase h2 {
+        line-height: 1;
+    }
+
+    #service-showcase p {
+        line-height: 1.2;
+    }
+
+    #service-showcase .column {
+        width: 100%;
     }
 }

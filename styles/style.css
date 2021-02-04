@@ -120,12 +120,49 @@ header a:hover{
 }
 
 #services .pictures img{
-    max-width: 175px;
+    max-width: 200px;
     display: inline-block;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+
+    header {
+        padding-bottom: 10px;
+    }
+
+    header .container{
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    header #branding{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    header nav,
+    header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #title-showcase {
+        padding-top: 30px;
+    }
+
+    #title-showcase h1 {
+        font-size: 42px;
+    }
+
+    #title-showcase p {
+        font-size: 18px;
+    }
+
     #services .offerings {
+      margin-top: 0;
       flex-direction: column;
       padding: 15px;
       text-align: left;
@@ -133,7 +170,7 @@ header a:hover{
     }
 
     #services .container {
-        width: 42%;
+        width: 60%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -143,7 +180,7 @@ header a:hover{
     }
 
     #services .pictures img {
-        max-width: 130px;
+        max-width: 45%;
     }
 
     #services .container-pic {

@@ -106,6 +106,10 @@ header a:hover{
     width: 30%;
 }
 
+#services li {
+    color: #090D10;
+}
+
 #services .offerings {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -150,6 +154,44 @@ header a:hover{
     text-align: left;
     line-height: 15px;
     width: 90%;
+}
+
+/* About Us */
+#about {
+    text-align: center;
+}
+
+#about .container {
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+#about h1 {
+    color: #4F4F4F;
+}
+
+#about hr {
+    border: 2px solid #366F8E;
+}
+
+#about p {
+    color: #090D10;
+    font-size: 18;
+}
+
+#about-text {
+    color: #4F4F4F;
+    font-size:18px;
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #272727;
 }
 
 /* Responsiveness */

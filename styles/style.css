@@ -73,7 +73,7 @@ header a:hover{
 
 /* Title Showcase */
 #title-showcase {
-    min-height: 600px;
+    min-height: 520px;
     background: url('../images/title-back.png') no-repeat;
     background-size: cover;
     background-position: center center;
@@ -82,7 +82,7 @@ header a:hover{
 }
 
 #title-showcase h1 {
-    margin-top: 200px;
+    margin-top: 185px;
     font-size: 70px;
     margin-bottom: 30px;
 }
@@ -91,6 +91,29 @@ header a:hover{
     font-size: 22px;
 
 }
+
+/* Call to Action */
+
+#call-to-action {
+    text-align: center;
+    background-color: #272727;
+    color: white;
+    min-height: 60px;
+    font-size: 20px;
+}
+
+#call-to-action span {
+    color: #FF6939;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#call-to-action #need-edm {
+    color: #52aada;
+    font-size: 24px;
+    font-weight: bold;
+}
+
 
 /* Services */
 #services {

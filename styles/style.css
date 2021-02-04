@@ -26,6 +26,9 @@ header {
     color: #ffffff;
     padding-top: 10px;
     min-height: 55px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header a{
@@ -65,7 +68,7 @@ header a:hover{
 }
 
 /* Title Showcase */
-#title-showcase{
+#title-showcase {
     min-height: 400px;
     background: url('../images/title-back.png') no-repeat;
     background-size: cover;
@@ -74,13 +77,78 @@ header a:hover{
     color: white;
 }
 
-#title-showcase h1{
+#title-showcase h1 {
     margin-top: 100px;
     font-size: 70px;
     margin-bottom: 10px;
 }
 
-#title-showcase p{
+#title-showcase p {
     font-size: 22px;
 
+}
+
+/* Services */
+#services {
+    text-align: center;
+}
+
+#services h1 {
+    color: #4F4F4F;
+}
+
+#services ul {
+    float: left;
+    width: 30%;
+}
+
+#services .offerings {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+#services .offerings ul {
+    flex: 0 0 33%;
+}
+
+#services .pictures {
+    margin-top: 20px;
+    text-align: center;
+    text-align: center;
+}
+
+#services .pictures img{
+    max-width: 175px;
+    display: inline-block;
+}
+
+@media (max-width: 600px) {
+    #services .offerings {
+      flex-direction: column;
+      padding: 15px;
+      text-align: left;
+      width: 100%;
+    }
+
+    #services .container {
+        width: 42%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #services ul {
+        width: 100%;
+    }
+
+    #services .pictures img {
+        max-width: 130px;
+    }
+
+    #services .container-pic {
+        width: 65%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
